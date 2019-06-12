@@ -2,15 +2,9 @@
 * @Author: Administrator
 * @Date:   2019-06-12 15:41:46
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-12 16:41:52
+* @Last Modified time: 2019-06-12 17:28:55
 */
-.head{
-	height: 1.825rem;
-}
-.head span{
-	font-size: 0.575rem;
-	font-weight: 700;
-}
+
 /*.remen*/
 .remen{
 	height: 8.3rem;
@@ -50,12 +44,12 @@
 	text-align: center;
 }
 /*content*/
-.content{
-	/*height: 0.725rem;*/
+
+.content h2{
 	font-size: 0.725rem;
 }
 .content dl{
-	height: 10.85rem;
+	height: 8rem;
 }
 dl dd{
 	list-style: none;
@@ -66,4 +60,19 @@ dl dd{
 }
 dl dd div{
 	display: inline;
+}
+.content img{
+	width: 13.625rem;
+	height: 6.55rem;
+	margin-top: 1.0rem;
+	margin-left: 0.45rem;
+}
+/*content1*/
+.content1 h2{
+	height: 3.25rem;
+	line-height: 3.25rem;
+	font-size: 0.725rem;
+}
+.content1 img{
+	height: 44.575rem;
 }

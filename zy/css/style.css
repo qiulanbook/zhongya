@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-12 09:30:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-12 15:34:02
+* @Last Modified time: 2019-06-12 21:57:23
 */
 body{
 	background-color: #FAFAFA;
@@ -40,28 +40,20 @@ header img{
 	margin-right: 1.1rem;
 	
 }
-.content ul li span{
+.content ul li:nth-child(4){
+	margin-right: 0;
+}
+.content ul li a:nth-child(2){
 	font-size: 0.575rem;
 	color: #333333;
 	display: inline-block;
-	margin-top: 1.425rem;
+	margin-top: 0.425rem;
 }
-.content ul li:nth-child(1){
-	background: url(../img/qyjs.png) no-repeat 0.65rem 0;
-	background-size: 0.9rem 0.85rem;
-}
-.content ul li:nth-child(2){
-	background: url(../img/zs.png) no-repeat 0.65rem 0;
-	background-size: 0.9rem 0.85rem;
-}
-.content ul li:nth-child(3){
-	background: url(../img/xw.png) no-repeat 0.65rem 0;
-	background-size: 0.9rem 0.85rem;
-}
-.content ul li:nth-child(4){
-	background: url(../img/cx.png) no-repeat 0.65rem 0;
-	background-size: 0.9rem 0.85rem;
-	margin-right: 0;
+
+.content ul li a:nth-child(1) img{
+	width: 0.9rem;
+	height: 0.85rem;
+	margin-left: 0.65rem;
 }
 /*conf*/
 .conf{

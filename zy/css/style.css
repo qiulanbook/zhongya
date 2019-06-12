@@ -2,8 +2,11 @@
 * @Author: Administrator
 * @Date:   2019-06-12 09:30:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-12 14:29:03
+* @Last Modified time: 2019-06-12 14:45:48
 */
+body{
+	background-color: #FAFAFA;
+}
 header{
 	height: 1.4rem;
 	margin-bottom: 17px;

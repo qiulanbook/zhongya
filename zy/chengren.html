@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/chengren.css">
+        <link rel="stylesheet" href="css/common.css">
+        <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+        <script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+    </head>
+    <body>
+    <!-- head -->
+    <div class="head gWidth">
+    	<span><</span>
+    	<span>成人高考</span>
+    </div>
+    <!-- banner1 -->
+    <div class="banner1 gWidth">
+    	<img src="img/banner.jpg"  alt="">
+    </div>
+	<!-- remen -->
+	<div class="remen gWidth">
+		<div class="remen_t">
+			热门院校
+		</div>
+		<div class="remen_b">
+			<ul>
+				<li>
+					<img src="img/chengren_rm.jpg" alt="">
+					<span>西安邮电大学</span>
+				</li>
+				<li>
+					<img src="img/chengren_rm.jpg" alt="">
+					<span>西安邮电大学</span>
+				</li>
+				<li>
+					<img src="img/chengren_rm.jpg" alt="">
+					<span>西安邮电大学</span>
+				</li>
+				<li>
+					<img src="img/chengren_rm.jpg" alt="">
+					<span>西安邮电大学</span>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<img src="img/chengren_rm.jpg" alt="">
+					<span>西安邮电大学</span>
+				</li>
+				<li>
+					<img src="img/chengren_rm.jpg" alt="">
+					<span>西安邮电大学</span>
+				</li>
+				<li>
+					<img src="img/chengren_rm.jpg" alt="">
+					<span>西安邮电大学</span>
+				</li>
+				<li>
+					<img src="img/chengren_gd.jpg" alt="">
+					<span>更多</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- content-->
+	<div class="content gWidth">
+		<h2>成人高考报考条件</h2>
+		<dl>
+			<dd>1:考生必须遵守中华人民共和国宪法和法律;</dd>
+			<dd>2:身体健康，生活能自理的残疾人也可报考;</dd>
+			<dd>3:在职职工经单位同意，且本人能够坚持业余学习;</dd>
+			<dd>4:考生能够按规定交纳学费、能到指定地点参加面授、考试</dd>
+			<dd><span>5:</span><div>报考专升本的考生，必须具有符合国民教育系列的专科及以上毕业证书，且在教育部学信网中能查到该学历信息。在学信网中查不到的，须到教育部指定的学历认证机构进行学历认证，认证通过方可报考。持外地身份证的人员报考须具有当地公安机关发放的居住证。</div></dd>
+		</dl>
+	</div>
+    </body>
+</html>

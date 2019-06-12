@@ -1,0 +1,69 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-12 15:41:46
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-12 16:41:52
+*/
+.head{
+	height: 1.825rem;
+}
+.head span{
+	font-size: 0.575rem;
+	font-weight: 700;
+}
+/*.remen*/
+.remen{
+	height: 8.3rem;
+
+}
+.remen_t{
+	height: 2.075rem;
+	line-height: 2.075rem;
+	font-size: 0.725rem;
+	font-weight: bold;
+}
+.remen_b{
+	height: 6.25rem;
+}
+.remen_b ul{
+	height: 50%;
+	overflow: hidden;
+	margin-left: 0;
+}
+.remen_b ul li{
+	float: left;
+	width: 3.125rem;
+	margin-right: 0.5rem;
+}
+.remen_b ul li:last-child{
+	margin-right: 0;
+}
+.remen_b ul li img{
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-left: 0.675rem;
+	margin-bottom: 0.35rem;
+}
+.remen_b ul li span{
+	font-size: 0.5rem;
+	display: block;
+	text-align: center;
+}
+/*content*/
+.content{
+	/*height: 0.725rem;*/
+	font-size: 0.725rem;
+}
+.content dl{
+	height: 10.85rem;
+}
+dl dd{
+	list-style: none;
+	margin: 0;
+	width: 100%;
+	line-height: 1.0rem;
+	font-size: 0.475rem;
+}
+dl dd div{
+	display: inline;
+}

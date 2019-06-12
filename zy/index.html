@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/common.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="dist/css/swiper.css">
+        <link rel="stylesheet" href="font/demo.css">
+        <link rel="stylesheet" href="font/iconfont.css">
+         <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+
+        <script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script> 
+    </head>
+    <body>
+        <!-- header -->
+    	<header class="gWidth">
+    		<h1><img src="img/logo.jpg" alt=""></h1>
+    	</header>
+        <!-- 轮播 -->
+        <script src="dist/js/swiper.js"></script>
+      <div class="swiper-container">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+             
+          </div>
+          <!-- 如果需要分页器 -->
+         <!--  <div class="swiper-pagination"></div>     -->
+          <!-- 如果需要导航按钮 -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>   
+          <!-- 如果需要滚动条 -->
+        <!--   <div class="swiper-scrollbar"></div> -->
+      </div>
+      <script>        
+        var mySwiper = new Swiper ('.swiper-container', {
+          autoplay:true,
+         
+         
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
+      
+      
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },    
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }, 
+          // 如果需要滚动条
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })        
+        </script>
+
+
+        <!-- 轮播结束 -->
+        <!-- content -->
+        <div class="con">
+            <div class="content gWidth">
+                <ul>
+                    <li>
+                        <span>企业介绍</span>
+                    </li>
+                    <li>
+                        <span>招生简章</span>
+                    </li>
+                    <li>
+                        <span>新闻推荐</span>
+                    </li>
+                    <li>
+                        <span>查询服务</span>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+        <!-- conf -->
+        <div class="conf gWidth">
+            <div class="conf_t">
+                <span class="fl">业务体系</span>
+                <a href="#" class="fr">更多</a>
+            </div>
+            <ul>
+               <li class="conf_b fl">
+                    <a href="#"><img src="img/yw.jpg" alt=""></a>
+                    <a href="#">成人高考</a>
+                </li>
+                <li class="conf_b fl">
+                    <a href="#"><img src="img/yw.jpg" alt=""></a>
+                    <a href="#">电大中专</a>
+                </li> 
+                <li class="conf_b fl">
+                    <a href="#"><img src="img/yw.jpg" alt=""></a>
+                    <a href="#">人力资源管理师</a>
+                </li>  
+            </ul>    
+        </div>
+        <!-- cons -->
+        <div class="cons gWidth">
+            <div class="cons_t">
+                <p>报考资讯</p>
+            </div>
+            <div class="cons_b">
+                <div class="cons_b_l fl">
+                    <img src='img/bk_img1.jpg' alt="">
+                </div>
+                <div class="cons_b_r fr">
+                    <ul>
+                        <li>
+                            <p>“教师资格面试究竟考什么？”如何在</p>
+                            <img src="img/bk_img2.jpg" alt="">
+                        </li>
+                        <li>
+                            <p>“教师资格面试究竟考什么？”如何在</p>
+                            <img src="img/bk_img3.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer gWidth">
+            <div class="footer_t">
+                <div class="footer_t_l fl">
+                    <p><span class="iconfont icon-dianhua"></span>电话: 0312-7910404</p>
+                    <p><span class="iconfont icon-wangzhi"></span>网址: http://www.zyxdedu.com</p>
+                </div>
+                <div class="footer_t_r fr">
+                    <img src="img/ewm.jpg"  alt="">
+                </div>   
+            </div>
+        </div>
+        <p class="footer_b gWidth"> <span class="iconfont icon-dizhi01"></span>地址: 河北省保定市朝阳北大街电谷中央时区B座808640</p>
+        <footer>
+            <p>Copyright © 2009-2017中亚信达版权所有</p>
+            <p>津ICP备16005433号一3</p>
+        </footer>
+    </body>
+</html>

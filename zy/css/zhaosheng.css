@@ -1,0 +1,48 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-13 17:22:44
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-14 10:42:13
+*/
+.edc_t{
+	height: 1.975rem;
+	line-height: 1.975rem;
+}
+.edc_b{
+	height: 6.2rem;
+}
+.edc_b li{
+	height: 1.7rem;
+	line-height: 1.7rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	font-size: 0.55rem;
+	margin-bottom: 0.55rem;
+}
+.edc_b li:nth-child(3){
+	margin-bottom: 0;
+}
+.edc_b_r a{
+	display: inline-block;
+	width: 1.3rem;
+	height: 0.75rem;
+	line-height: 0.75rem;
+	text-align: center;	
+	color: #4E4E4E;	
+	border-radius: 0.1rem;
+}
+.edc_b_r a:first-child{
+	background-color: #D0E2FB;
+	border: 1px solid #1A519C;
+}
+.edc_b_r a:nth-child(2){
+	border: 1px solid #A0A0A0;
+}
+.edc_b_l{
+	background: url(../img/zsjz.jpg) no-repeat 0.45rem center;
+	background-size: 0.825rem 0.85rem;
+	padding-left: 1.675rem;
+}
+.edu_f{
+	margin-bottom: 0.225rem;
+}

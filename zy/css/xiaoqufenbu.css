@@ -1,0 +1,51 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-13 11:27:09
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-13 14:23:11
+*/
+.con_xq_t{
+	height: 3.55rem;
+	line-height: 3.55rem;
+	font-size: 0.725rem;
+	width: 5.0rem;
+}
+.con_xq_b{
+	width: 545px;
+	height: 223px;
+}
+.con_xq_b tr{
+	
+}
+.con_xq_b td{
+	font-size: 0.2rem;
+	height: 0.625rem;
+	line-height: 0.625rem;
+	text-align: center;
+	border: 1px solid #8B8B8B;
+}
+table tr td:nth-child(1){
+	width: 2.05rem;
+}
+table tr td:nth-child(2){
+	width: 8.125rem;
+}
+table tr td:nth-child(3){
+	width: 1.225rem;
+}
+table tr td:nth-child(4){
+	width: 2.1rem;
+}
+table tr:nth-child(1){
+	color: #fff;;
+	background-color: #1A519C;
+}
+table{  
+    border-collapse:collapse;  
+    border-spacing:0; 
+    margin-left: 1.15rem; 
+    }  
+     
+th,td{  
+    padding:0;  
+    }  

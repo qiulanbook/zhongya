@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-12 09:30:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-12 21:57:23
+* @Last Modified time: 2019-06-14 12:19:17
 */
 body{
 	background-color: #FAFAFA;
@@ -114,15 +114,23 @@ header img{
 }
 .cons_b_r li{
 	font-size: 0.45rem;
+	width: 8.6rem;
+	height: 2.5rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
 }
 .cons_b_r li:nth-child(2){
 	margin-bottom: 0;
+	margin-top: 0.6rem;
 }
 .cons_b_r li p{
 	float: left;
-	width: 4.8rem;
-	height: 2.375rem;
-	margin-top: 0.6rem;
+	width: 5.25rem;
+	height: 2.5rem;
+	line-height: 0.9rem;
+	color: #666666;
+	margin-top: 0.5rem;
+	box-sizing: border-box;
 
 }
 .cons_b_r li img{
@@ -130,15 +138,23 @@ header img{
 }
 /*footer*/
 .footer{
+	padding-top: 0.625rem;
 	padding-left: 0.55rem;
-	height: 3.15rem;
+	box-sizing: border-box;
 	font-size: 0.575rem;
+	height: 4.3rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	margin-bottom: 1.05rem;
 }
 .footer_t{
 	height: 2.15rem;
 }
 .iconfont{
 	margin-right: 0.275rem;
+}
+.footer_t_l{
+	height: 100%;
 }
 .footer_t_l p{
 	line-height: 1.2rem;
@@ -155,12 +171,11 @@ header img{
 	height: 100%;
 	width: 100%;
 }
-
 .footer_b{
 	height: 0.925rem;
 	font-size: 0.525rem;
-	padding-left: 0.55rem;
-	margin-bottom: 1.6rem;
+	/*margin-bottom: 1.6rem;*/
+	margin-top: 0.425rem;
 }
 .icon-dizhi01{
 	color: #F66E5F;

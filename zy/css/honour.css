@@ -1,0 +1,30 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-13 16:53:22
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-13 17:16:28
+*/
+.honour_t{
+	height: 2.725rem;
+	line-height: 2.725rem;
+}
+.honour_b{
+	height: 6.125rem;
+}
+.honour_b li{
+	width: 6.675rem;
+	height: 6.125rem;
+}
+.honour_b li img{
+	width: 100%;
+	height: 4.85rem;
+}
+.honour_b li p{
+	width: 100%;
+	height: 1.275rem;
+	line-height: 1.275rem;
+	text-align: center;
+	display: inline-block;
+	font-size: 0.5rem;
+	color: #535353;
+}

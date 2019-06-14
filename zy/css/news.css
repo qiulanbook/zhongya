@@ -1,0 +1,107 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-13 09:21:37
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-13 23:09:15
+*/
+/*content*/
+.content .top{
+	margin-left: 1.5rem;
+	height: 0.975rem;
+	margin-top: 0.75rem;
+}
+.content .top li{
+	width: 3.6rem;
+	height: 0.975rem;
+	background-color: #2C7FDE;
+	line-height: 0.975rem;
+	text-align: center;
+	float: left;
+	margin-right: 0.4rem;
+	border-radius: 0.225rem;
+	font-size: 0.575rem;
+	font-weight: 700;
+	color: #fff;
+}
+.content .top li:nth-child(3){
+	margin-right: 0;
+}
+/*btm*/
+.dd_l{
+	width: 9.325rem;
+	height: 2.45rem;
+	line-height: 1.0rem;
+}
+dd{
+	width: 14.7rem;
+	height: 3.35rem;
+	margin: 0;
+	margin-bottom: 0.65rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	padding-left: 0.45rem;
+	padding-bottom: 0.575rem;
+	padding-top: 0.4rem;
+	box-sizing: border-box;
+}
+.dd_l h2{
+	font-size: 0.525rem;
+}
+.dd_l a{
+	border: 1px solid #666666;
+	font-size: 0.3rem;
+	color: #666666;
+	display: inline-block;
+	width: 1.35rem;
+	height: 0.575rem;
+	line-height: 0.575rem;
+	margin-left: 0.275rem;
+}
+.dd_l p{
+	font-size: 0.475rem;
+	color: #666666;
+}
+.dd_r{
+	width: 3.625rem;
+	height: 2.45rem;
+	margin-right: 0.475rem;
+
+}
+.dd_r img{
+	width: 100%;
+	height: 100%;
+	margin-top: 0.25rem;
+}
+/*footer*/
+.footer{
+	height: 2.65rem;
+	margin-top: 0.775rem;
+
+}
+.footer a{
+	margin-top: -0.05rem;
+	display: inline-block;
+	width: 0.325rem;
+	height: 0.575rem;
+	font-size: 0.4rem;
+}
+.footer p{
+	text-align: center;
+}
+.footer span{
+	display: inline-block;
+	font-size: 0.5rem;
+}
+.footer .page{
+	background: url(../img/page.jpg) no-repeat center center;
+	width: 0.575rem;
+	height: 0.575rem;
+	border-radius: 50%;
+}
+.page1{
+	padding-left: 0.5rem;
+	padding-right: 0.75rem;
+}
+.footer_a{
+	margin-right: 0.775rem;
+}

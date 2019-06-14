@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>文章页</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+        <link rel="stylesheet" href="css/article.css">
+        <link rel="stylesheet" href="font_article/demo.css">
+        <link rel="stylesheet" href="font_article/iconfont.css">
+        <link rel="stylesheet" href="css/common2.css">
+        <script src="js/article.js"></script>
+        <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+        <script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+    </head>
+    <body>
+    	<!-- head -->
+    	<div class="head_in gWidth">
+    		<a href="index.html"><</a>
+    		<a href="index.html">标题标题</a>
+    	</div>
+    	<div class="art gWidth">
+            <div class="art_in">
+                <p>文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文;章文章文章文章文章文章文章文章文章文章文章文章文章文章;文章文章文章文章
+                </p>
+                <p>
+                    文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章
+                </p>
+                <p>
+                文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章文章
+                </p>
+                    
+            </div>	
+    	</div>
+    	
+    	<div class="foot" id="foot">
+    		<span class="iconfont icon-xingxing" id="foot_s1"></span>
+    		<span class="iconfont icon-zhuanfa" id="foot_s2"></span>
+    		<span class="iconfont icon-dianzan" id="foot_s3"></span>
+    	</div>
+    </body>

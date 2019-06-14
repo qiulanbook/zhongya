@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-12 15:41:46
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-12 17:28:55
+* @Last Modified time: 2019-06-14 11:25:30
 */
 
 /*.remen*/
@@ -17,7 +17,12 @@
 	font-weight: bold;
 }
 .remen_b{
-	height: 6.25rem;
+	height: 6.425rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	padding-left: 0.45rem;
+	padding-top: 0.425rem;
+	box-sizing: border-box;
 }
 .remen_b ul{
 	height: 50%;
@@ -44,28 +49,52 @@
 	text-align: center;
 }
 /*content*/
-
+.content{
+	height: 14.025rem;
+}
 .content h2{
 	font-size: 0.725rem;
+	height: 2.8rem;
+	line-height: 2.8rem;
 }
 .content dl{
-	height: 8rem;
+	height: 11.225rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	padding-left: 0.45rem;
+	padding-top: 0.75rem;
+	list-style: none;
+	margin: 0;
+	box-sizing: border-box;
 }
 dl dd{
 	list-style: none;
 	margin: 0;
 	width: 100%;
 	line-height: 1.0rem;
-	font-size: 0.475rem;
+	font-size: 0.5rem;
+	color: #4E4E4E;
 }
 dl dd div{
 	display: inline;
 }
-.content img{
+.content2{
+	height: 10.3rem;
+}
+.content2 .img{
+	height: 7.55rem;
+	background-color: #fff;
+	border-radius: 0.25rem;
+}
+.content2 img{
 	width: 13.625rem;
 	height: 6.55rem;
-	margin-top: 1.0rem;
+	margin-top: 0.45rem;
 	margin-left: 0.45rem;
+}
+.content2 h2{
+	height: 2.75rem;
+	line-height: 2.75rem;
 }
 /*content1*/
 .content1 h2{

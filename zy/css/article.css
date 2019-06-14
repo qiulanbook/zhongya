@@ -1,0 +1,35 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-13 14:29:53
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-14 14:22:08
+*/
+p{
+	font-size: 0.225rem;
+	line-height: 0.75rem;
+}
+.art{	
+	height: 416px;
+	background-color: #fff;
+	border-radius: 0.25rem;
+	padding-top: 0.55rem;
+	box-sizing: border-box;
+}
+.art_in{
+	width: 13.675rem;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.art_in p{
+	width: 100%;
+}
+.foot{
+	margin-top: 2.2rem;
+	margin-left: 11.075rem;
+}
+.foot span{
+	color: #BFBFBF;
+	font-size: 0.925rem;
+	cursor: pointer;
+}

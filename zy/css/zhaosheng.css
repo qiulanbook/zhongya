@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 17:22:44
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 10:42:13
+* @Last Modified time: 2019-06-14 15:20:56
 */
 .edc_t{
 	height: 1.975rem;
@@ -39,7 +39,7 @@
 	border: 1px solid #A0A0A0;
 }
 .edc_b_l{
-	background: url(../img/zsjz.jpg) no-repeat 0.45rem center;
+	background: url(../img/zsjz.jpg) no-repeat 0.45rem 0.4rem;
 	background-size: 0.825rem 0.85rem;
 	padding-left: 1.675rem;
 }

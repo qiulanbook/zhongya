@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 17:22:44
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 15:20:56
+* @Last Modified time: 2019-06-14 15:52:51
 */
 .edc_t{
 	height: 1.975rem;
@@ -25,7 +25,6 @@
 .edc_b_r a{
 	display: inline-block;
 	width: 1.3rem;
-	height: 0.75rem;
 	line-height: 0.75rem;
 	text-align: center;	
 	color: #4E4E4E;	

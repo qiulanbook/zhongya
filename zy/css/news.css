@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 09:21:37
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 15:36:58
+* @Last Modified time: 2019-06-14 15:49:06
 */
 /*content*/
 .content .top{
@@ -80,7 +80,7 @@ dd{
 	display: inline-block;
 	width: 0.325rem;
 	height: 0.575rem;
-	font-size: 0.4rem;
+	font-size: 0.8rem;
 	color: #6D6D6D;
 }
 .footer p{

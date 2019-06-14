@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-03-05 13:22:10
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 15:05:21
+* @Last Modified time: 2019-06-14 15:55:05
 */
 /*.box>div直接相邻*/
 @charset "utf-8";
@@ -48,6 +48,9 @@ body{
 	font-size: 0.575rem;
 	font-weight: 700;
 	color: #666666;
+}
+.head_in a:nth-child(1){
+	font-size:  0.875rem;
 }
 body{
 	background-color:#FAFAFA;

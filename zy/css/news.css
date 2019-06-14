@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 09:21:37
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-13 23:09:15
+* @Last Modified time: 2019-06-14 14:36:45
 */
 /*content*/
 .content .top{
@@ -52,8 +52,9 @@ dd{
 	font-size: 0.3rem;
 	color: #666666;
 	display: inline-block;
-	width: 1.35rem;
-	height: 0.575rem;
+	/*width: 1.35rem;
+	height: 0.575rem;*/
+	padding: 0.125rem 0.225rem 0.125rem 0.125rem;
 	line-height: 0.575rem;
 	margin-left: 0.275rem;
 }

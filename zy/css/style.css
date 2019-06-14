@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-12 09:30:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 12:19:17
+* @Last Modified time: 2019-06-14 14:54:09
 */
 body{
 	background-color: #FAFAFA;
@@ -146,6 +146,7 @@ header img{
 	background-color: #fff;
 	border-radius: 0.25rem;
 	margin-bottom: 1.05rem;
+	color: #666666;
 }
 .footer_t{
 	height: 2.15rem;
@@ -174,16 +175,21 @@ header img{
 .footer_b{
 	height: 0.925rem;
 	font-size: 0.525rem;
-	/*margin-bottom: 1.6rem;*/
 	margin-top: 0.425rem;
 }
 .icon-dizhi01{
 	color: #F66E5F;
 }
+body .icon-wangzhi{
+	font-size: 0.8rem;
+	color: #7EB3FF;
+	margin-left: -1px;
+}
 /*footer*/
 footer{
 	height: 2.1rem;
 	background-color: #D2D2D2;
+	color: #333333;
 }
 footer p{
 	font-size: 0.475rem;

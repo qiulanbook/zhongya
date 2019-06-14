@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 15:26:37
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-13 16:48:49
+* @Last Modified time: 2019-06-14 14:44:00
 */
 .xue_t{
 	height: 2.4rem;
@@ -42,6 +42,10 @@ body .xue_b{
 }
 .zhao_b_in div:nth-child(1){
 	height: 1.3rem;
+}
+.zhao_b_in div:nth-child(1) span{
+	height: 1.3rem;
+	line-height: 1.3rem;
 }
 .zhao_b_in>div>span:nth-child(1){
 	width: 2.025rem;

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-03-05 13:22:10
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-13 15:33:26
+* @Last Modified time: 2019-06-14 15:05:21
 */
 /*.box>div直接相邻*/
 @charset "utf-8";
@@ -73,7 +73,8 @@ body{
 }
 .content ul li a:nth-child(2){
 	font-size: 0.575rem;
-	color: #333333;
+	color: #1A519C;
+	font-weight: 700;
 	display: inline-block;
 	margin-top: 0.425rem;
 }

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-12 09:30:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 15:31:38
+* @Last Modified time: 2019-06-14 16:03:14
 */
 body{
 	background-color: #FAFAFA;
@@ -79,7 +79,7 @@ header img{
 }
 .conf_b{
 	height: 5.925rem;
-	margin-right: 0.4rem;
+	margin-right: 0.45rem;
 }
 .conf_b a{
 	display: block;

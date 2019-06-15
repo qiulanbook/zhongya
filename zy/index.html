@@ -104,20 +104,64 @@
                 <span class="fl">业务体系</span>
                 <a href="#" class="fr">更多&gt;</a>
             </div>
-            <ul>
-               <li class="conf_b fl">
+
+
+
+              <!-- 轮播 -->  
+      <div class="swiper-container ss">
+          <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                   <li class="conf_b fl">
                     <a href="chengren.html"><img src="img/yw.jpg" alt=""></a>
                     <a href="chengren.html">成人高考</a>
-                </li>
-                <li class="conf_b fl">
+                    </li>
+              </div>
+              <div class="swiper-slide">
+                   <li class="conf_b fl">
                     <a href="chengren.html"><img src="img/yw.jpg" alt=""></a>
-                    <a href="chengren.html">电大中专</a>
-                </li> 
-                <li class="conf_b fl">
+                    <a href="chengren.html">成人高考</a>
+                    </li>
+              </div>
+              <div class="swiper-slide">
+                   <li class="conf_b fl">
                     <a href="chengren.html"><img src="img/yw.jpg" alt=""></a>
-                    <a href="chengren.html">人力资源管理师</a>
-                </li>  
-            </ul>    
+                    <a href="chengren.html">成人高考</a>
+                    </li>
+              </div>
+              <div class="swiper-slide">
+                   <li class="conf_b fl">
+                    <a href="chengren.html"><img src="img/yw.jpg" alt=""></a>
+                    <a href="chengren.html">成人高考</a>
+                    </li>
+              </div>
+          </div>
+      </div>
+      <script>        
+        var mySwiper = new Swiper ('.ss', {
+          autoplay:true,
+         slidesPerView : 2.5,
+        spaceBetween : 20,
+         
+          direction: 'horizontal', // 垂直切换选项
+          loop: true, // 循环模式选项
+      
+      
+          
+          // 如果需要分页器
+          pagination: {
+            el: '.swiper-pagination',
+          },    
+          // 如果需要前进后退按钮
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          }, 
+          // 如果需要滚动条
+          scrollbar: {
+            el: '.swiper-scrollbar',
+          },
+        })        
+        </script>
         </div>
         <!-- cons -->
         <div class="cons gWidth">

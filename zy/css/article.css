@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 14:29:53
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 14:22:08
+* @Last Modified time: 2019-06-15 10:34:56
 */
 p{
 	font-size: 0.225rem;
@@ -28,8 +28,40 @@ p{
 	margin-top: 2.2rem;
 	margin-left: 11.075rem;
 }
-.foot span{
-	color: #BFBFBF;
-	font-size: 0.925rem;
-	cursor: pointer;
+.foot_1,.foot_3,.foot_s2{
+	display: inline-block;
 }
+.foot_1,.foot_3{
+	width: 0.925rem;
+	height: 0.925rem;
+	position: relative;
+}
+body .foot .foot_s2{
+	width: 0.925rem;
+	height: 0.925rem;
+}
+.foot_s1,.foot_s11{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.foot_s11,.foot_s33{
+	display: none;
+}
+.foot_1 img,.foot_s2 img,.foot_3 img{
+	width: 100%;
+	height: 100%;
+}
+.mix{
+	display: none;
+	position: absolute;
+	left: 0.25rem;
+	top: -0.475rem;
+	font-size: 0.3rem;
+	color: #BFBFBF;
+}
+.zf{
+	position: fixed;
+}
+
+

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-12 09:30:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-15 13:56:40
+* @Last Modified time: 2019-06-15 14:34:19
 */
 body{
 	background-color: #FAFAFA;
@@ -43,9 +43,10 @@ header img{
 }
 .content ul li a:nth-child(2){
 	font-size: 0.575rem;
-	color: #333333;
+	color: #1A519C;
 	display: inline-block;
 	margin-top: 0.425rem;
+	font-weight: 700;
 }
 .content ul li a:nth-child(1) img{
 	width: 0.9rem;
@@ -128,7 +129,7 @@ header img{
 	height: 2.5rem;
 	line-height: 0.9rem;
 	color: #666666;
-	margin-top: 0.5rem;
+	padding-top: 0.5rem;
 	box-sizing: border-box;
 }
 .cons_b_r li img{

@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-03-05 13:22:10
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-14 15:54:59
+* @Last Modified time: 2019-06-15 14:03:24
 */
 /*.box>div直接相邻*/
 @charset "utf-8";
@@ -14,8 +14,6 @@ strong{font-weight:normal;}/*清除加粗*/
 em{font-style: normal;}/*清除斜体*/
 input{border:none;outline:none;}/*清除 聚焦*/
 textarea{resize: none;border:none;}/*清除右下角小尾巴*/
-
-
 .clearfix:after,.clearfix:before{content: "";display: table;}
 .clearfix:after{clear: both;}
 .clearfix{*zoom:1;}
@@ -23,7 +21,6 @@ body{
 	width: 16.0rem
 }
 .gWidth{
-	/*width: 36.5rem;*/
 	width: 14.625rem;
 	margin-left: auto;
 	margin-right: auto;

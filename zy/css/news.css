@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 09:21:37
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-17 10:46:36
+* @Last Modified time: 2019-06-17 10:59:02
 */
 /*content*/
 .content .top{
@@ -13,8 +13,8 @@
 .content .top li{
 	width: 3.6rem;
 	height: 0.975rem;
+	line-height: 0.975rem;;
 	box-sizing: border-box;
-	padding-top: 0.13rem;
 	background-color: #2C7FDE;
 	text-align: center;
 	float: left;

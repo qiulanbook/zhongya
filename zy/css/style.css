@@ -2,13 +2,14 @@
 * @Author: Administrator
 * @Date:   2019-06-12 09:30:49
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-15 14:34:19
+* @Last Modified time: 2019-06-17 09:50:16
 */
 body{
 	background-color: #FAFAFA;
 }
 header{
 	height: 1.4rem;
+	margin-top: 0.2rem;
 	margin-bottom: 17px;
 }
 header img{	

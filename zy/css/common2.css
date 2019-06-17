@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-03-05 13:22:10
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-15 14:32:20
+* @Last Modified time: 2019-06-17 09:46:35
 */
 /*.box>div直接相邻*/
 @charset "utf-8";
@@ -41,6 +41,8 @@ body{
 }
 .head_in{
 	height: 1.825rem;
+	font-size: 0;
+	line-height: 1.825rem;
 }
 .head_in a{
 	font-size: 0.575rem;
@@ -48,7 +50,9 @@ body{
 	color: #666666;
 }
 .head_in a:nth-child(1){
-	font-size:  0.875rem;
+	font-size:  0.675rem;
+	margin-right: 0.45rem;
+
 }
 body{
 	background-color:#FAFAFA;

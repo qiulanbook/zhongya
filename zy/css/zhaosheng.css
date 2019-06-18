@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2019-06-13 17:22:44
 * @Last Modified by:   Administrator
-* @Last Modified time: 2019-06-18 10:10:18
+* @Last Modified time: 2019-06-18 10:12:21
 */
 .edc_t{
 	height: 1.975rem;
@@ -29,7 +29,7 @@
 	text-align: center;	*/
 	padding: 0.15rem 0.15rem;
 	color: #4E4E4E;	
-	font-size: 0.475rem;
+	font-size: 0.5rem;
 	border-radius: 0.1rem;
 }
 .edc_b_r a:first-child{

@@ -1,0 +1,31 @@
+/* 
+* @Author: Administrator
+* @Date:   2019-06-25 09:26:48
+* @Last Modified by:   Administrator
+* @Last Modified time: 2019-06-25 09:36:03
+*/
+body{
+	width: 16.0rem;
+	height: 27.5rem;
+	background: url(../img/error.jpg) no-repeat center center;
+	background-size: 16.0rem 27.5rem;
+}
+span,a{
+	display: inline-block;
+	width: 2.075rem;
+	height: 2.075rem;
+	line-height: 2.075rem;
+	text-align: center;
+	background-color: #18519E;
+	color: #fff;
+	font-size: 0.575rem;
+	border-radius: 50%;
+	margin-top: 23.675rem;
+}
+span{
+	margin-left: 4.35rem;
+
+}
+a{
+	margin-left: 2.875rem;
+}

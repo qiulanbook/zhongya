@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>错误</title>
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/error.css">
+	 <meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1">
+	 <script>
+        window.onload = window.onresize = function(){
+            var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+
+            var _html = document.getElementsByTagName('html')[0];
+            view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+        }
+    </script>
+</head>
+<body>
+	<span id="newpage">刷新</span>
+	<a href="index.html">首页</a>
+	<script>
+	var onewpage=document.getElementById('newpage');
+	onewpage.onclick=function(){
+		 location.reload(); 
+	}
+	</script>
+</body>
+</html>
